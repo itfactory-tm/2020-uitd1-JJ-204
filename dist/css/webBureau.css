@@ -1,2 +1,39 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+
+#sidebar-wrapper {
+    background: #B5EAD7;
+}
+
+.service-icon {
+    color: #B5EAD7;
+}
+
+footer.footer .social-link {
+    background-color: #B5EAD7;
+}
+
+a {
+    color: #B5EAD7;
+}
+
+.btn-primary {
+    background-color: #B5EAD7 !important;
+    border-color: #B5EAD7 !important;
+}
+
+.bg-primary {
+    background-color: #B5EAD7 !important;
+}
+
+.text-primary {
+    color: #B5EAD7 !important
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.masthead {
+    background: url("../img/jellyfishes.jpg");
+}
