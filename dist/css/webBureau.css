@@ -38,15 +38,34 @@ body {
     background: url("../img/jellyfishes.jpg");
 }
 
+.callout {
+    background: rgb(54,54,128);
+    background: linear-gradient(90deg, rgba(54,54,128,1) 0%, rgba(79,94,227,1) 100%);
+}
+
 .card {
     margin: 5%;
     border-radius: 5% 5% 2% 2%;
 }
 
-.foto {
+.fotoklein {
     border-radius: 40px;
+}
+
+.fotogroot {
+    border-radius: 50%;
+    max-height: 200px;
 }
 
 .uitlijnkaartje {
     padding-left: 20px;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background: linear-gradient(90deg, rgba(78,78,148,1) 0%, rgba(79,94,227,1) 100%) !important;
+    border-color: #0b5b3d !important;
 }
