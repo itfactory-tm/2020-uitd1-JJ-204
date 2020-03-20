@@ -2,32 +2,32 @@
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
 
 #sidebar-wrapper {
-    background: #B5EAD7;
+    background: #0b5b3d;
 }
 
 .service-icon {
-    color: #B5EAD7;
+    color: #0b5b3d;
 }
 
 footer.footer .social-link {
-    background-color: #B5EAD7;
+    background-color: #0b5b3d;
 }
 
 a {
-    color: #B5EAD7;
+    color: #0b5b3d;
 }
 
 .btn-primary {
-    background-color: #B5EAD7 !important;
-    border-color: #B5EAD7 !important;
+    background-color: #0b5b3d !important;
+    border-color: #0b5b3d !important;
 }
 
 .bg-primary {
-    background-color: #B5EAD7 !important;
+    background-color: #0b5b3d !important;
 }
 
 .text-primary {
-    color: #B5EAD7 !important
+    color: #0b5b3d !important
 }
 
 body {
@@ -36,4 +36,17 @@ body {
 
 .masthead {
     background: url("../img/jellyfishes.jpg");
+}
+
+.card {
+    margin: 5%;
+    border-radius: 5% 5% 2% 2%;
+}
+
+.foto {
+    border-radius: 40px;
+}
+
+.uitlijnkaartje {
+    padding-left: 20px;
 }
