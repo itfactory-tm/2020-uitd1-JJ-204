@@ -35,8 +35,7 @@ body {
 }
 
 .masthead {
-    background: url("../img/rsz_kwalle.jpg");
-    background-repeat: no-repeat;
+    background: url("../img/rsz_kwalle.jpg") no-repeat;
     background-size: cover;
 }
 
