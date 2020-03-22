@@ -123,3 +123,9 @@ h4 {
     background: linear-gradient(90deg, rgba(78,78,148,1) 0%, rgba(79,94,227,1) 100%) !important;
     border-color: #0b5b3d !important;
 }
+
+@media (max-width: 500px) {
+    #sidebar-wrapper.active {
+        width: 100%;
+    }
+}
