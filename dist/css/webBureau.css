@@ -73,7 +73,7 @@ body {
 
 .more-arrows {
     width: 75px;
-    height: 65px;
+    height: 75px;
 }
 
 .more-arrows:hover polygon {
@@ -132,4 +132,36 @@ h4 {
 
 .bold {
     font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+.beweeg .arrow-top {
+    animation: pijl 2s infinite;
+    animation-delay: 0.30s;
+}
+
+.beweeg .arrow-middle {
+    animation: pijl 2s infinite;
+    animation-delay: 0.15s;
+}
+
+.beweeg .arrow-bottom {
+    animation: pijl 2s infinite;
+}
+
+@keyframes pijl {
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform:translateY(10px);
+    }
 }
