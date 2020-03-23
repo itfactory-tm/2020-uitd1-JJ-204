@@ -67,16 +67,6 @@ body {
     padding-left: 20px;
 }
 
-h4 {
-    padding-top: 10px;
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background: linear-gradient(90deg, rgba(78,78,148,1) 0%, rgba(79,94,227,1) 100%) !important;
-    border-color: #0b5b3d !important;
-}
-
-
 .margin-top-20 {
     margin-top: 20px;
 }
@@ -123,6 +113,15 @@ polygon.arrow-top {
 .center {
     max-width: 100%;
     margin: auto;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background: linear-gradient(90deg, rgba(78,78,148,1) 0%, rgba(79,94,227,1) 100%) !important;
+    border-color: #0b5b3d !important;
 }
 
 @media (max-width: 500px) {
