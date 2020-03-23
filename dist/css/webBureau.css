@@ -195,8 +195,8 @@ label:before {
 #hamburger:checked ~ .menu-container .menu {
     width: 250vh;
     height: 250vh;
-    -webkit-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all .8s;
+    transition: all .8s;
 }
 
 .menu-container .links {
@@ -206,26 +206,40 @@ label:before {
     z-index: 103;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
 }
 .menu-container .links a {
     display: block;
     color: white;
     font-size: 2rem;
     text-decoration: none;
-    margin: 3rem;
-    transition: .2s;
+    margin: 2rem;
+    transition: all .5s;
+}
+
+.menu-container .links ul li{
+    list-style-type: none;
 }
 
 .menu-container .links a:hover {
     transform: translateX(10px);
+    opacity: .75;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 768px) {
     #hamburger:checked ~ .menu-container {
-        width: 30vw;
+        width: 45vw;
     }
     .menu-container .links {
         left: 15vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hamburger:checked ~ .menu-container {
+        width: 33vw;
+    }
+    .menu-container .links {
+        left: 10vw;
     }
 }
