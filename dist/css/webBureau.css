@@ -56,6 +56,7 @@ body {
 
 .fotoklein {
     border-radius: 40px;
+    width: 73px
 }
 
 .fotogroot {
@@ -73,7 +74,7 @@ body {
 
 .more-arrows {
     width: 75px;
-    height: 65px;
+    height: 75px;
 }
 
 .more-arrows:hover polygon {
@@ -242,4 +243,52 @@ label:before {
     .menu-container .links {
         left: 10vw;
     }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+.beweeg .arrow-top {
+    animation: pijl 2s infinite;
+    animation-delay: 0.30s;
+}
+
+.beweeg .arrow-middle {
+    animation: pijl 2s infinite;
+    animation-delay: 0.15s;
+}
+
+.beweeg .arrow-bottom {
+    animation: pijl 2s infinite;
+}
+
+@keyframes pijl {
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform:translateY(10px);
+    }
+}
+
+.fotofooter {
+    background: url("../img/jellyfishes-footer.jpg") no-repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
 }
