@@ -1,0 +1,82 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../img/errorimg/sadaap.jpg");
+}
+
+p {
+    position: fixed;
+    top: -20px;
+    right: 15px;
+    font-size: 30px;
+}
+
+img {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../img/errorimg/sadaap.jpg);
+    }
+
+    p {
+        position: fixed;
+        top: -20px;
+        right: 15px;
+        font-size: 45px;
+    }
+
+    img {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        height: 90px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url(../img/errorimg/baby.jpg);
+    }
+
+    p {
+        position: fixed;
+        top: unset;
+        bottom: -30px;
+        right: 15px;
+        font-size: 55px;
+    }
+
+    img {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../img/errorimg/baby.jpg);
+    }
+
+    p {
+        position: fixed;
+        top: unset;
+        bottom: -50px;
+        right: 15px;
+        font-size: 70px;
+    }
+
+    img {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        height: 120px;
+    }
+}
