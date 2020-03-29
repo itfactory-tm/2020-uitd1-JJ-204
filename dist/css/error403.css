@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    position: center;
+    top: -50px;
+    font-size: 35px;
+}
+
+.stop {
+    display: inline-block;
+}
+
+.motor {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        position: center;
+        top: -50px;
+        font-size: 60px;
+    }
+
+    .stop {
+        display: none;
+    }
+
+    .motor {
+        display: inline-block;
+    }
+}
