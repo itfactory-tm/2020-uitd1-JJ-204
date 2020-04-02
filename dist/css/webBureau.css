@@ -271,7 +271,8 @@ h4 {
     border-color: #0b5b3d;
     box-shadow: 0 3px 3px 0 rgba(11, 91, 61, .1);
     font-weight: 700;
-    color:#0b5b3d;
+    color:#ffffff;
+    background-color: #0b5b3d;
 }
 @media screen and (min-width: 768px) {
     #hamburger:checked ~ .menu-container {
