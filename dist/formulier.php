@@ -85,7 +85,7 @@
     <!-- Footer -->
     <footer class="footer text-center">
         <div class="container">
-            <p class="text-muted small mb-0">Copyright &copy; Kwallie 2020</p>
+            <p class="text-muted small mb-0"><a href="https://www.thomasmore.be/">Thomas More</a> &copy; Kwallie 2020</p>
         </div>
     </footer>
 </div>
