@@ -197,10 +197,10 @@ h4 {
 }
 
 #hamburger:checked ~ .menu-container .menu {
-    width: 250vh;
-    height: 250vh;
-    -webkit-transition: all .8s;
-    transition: all .8s;
+    width: 1000vh;
+    height: 1000vh;
+    -webkit-transition: all 3s;
+    transition: all 3s;
 }
 
 .menu-container .links {
