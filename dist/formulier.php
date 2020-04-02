@@ -10,14 +10,15 @@
 
     <title>Kwallie - Home</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
     <!-- CSS: Bootstrap, stylish portfolio, FA5 -->
@@ -39,17 +40,20 @@
 
 <!-- Navigation -->
 <nav>
-    <input type="checkbox" id="hamburger" name="hamburger" />
-    <label class="hamburger_php" for="hamburger"></label>
+
+    <input type="checkbox" id="hamburger" name="hamburger"/>
+    <label class="hamburger" for="hamburger"></label>
     <div class="menu-container">
         <div class="menu"></div>
         <div class="links">
             <ul>
                 <li>
-                    <a class="js-scroll-trigger" href="index.html#page-top">Kwallie <img class="js-scroll-trigger" src="../dist/img/favicon/favicon.ico" alt="Favicon"></a>
+                    <a class="js-scroll-trigger" href="index.html#page-top">Kwallie <img class="js-scroll-trigger"
+                                                                                         src="../dist/img/favicon/favicon.ico"
+                                                                                         alt="Favicon"></a>
                 </li>
                 <li>
-                    <a class="js-scroll-trigger" href="index.html#who">Wie zijn wij?</a>
+                    <a class="js-scroll-trigger" href="index.html#wie">Wie zijn wij?</a>
                 </li>
                 <li>
                     <a class="js-scroll-trigger" href="index.html#portfolio">Portfolio</a>
@@ -61,6 +65,7 @@
         </div>
     </div>
 </nav>
+
     <div class="container2">
         <h1 class="text-center">Bedankt voor contact met ons op te nemen!</h1>
         <h3 id='voornaam' class="text-center">Hieronder een kort overzichtje van uw gegevens: </h3>
