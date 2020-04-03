@@ -376,8 +376,7 @@ h4 {
     color: #0b5b3d !important
 }
 
-#container
-{
+#container {
     padding:10px;
     border-radius: 20px 60px 20px 60px;
     background-color: white;
@@ -386,13 +385,14 @@ h4 {
 #container_php {
     width: 800px;
     margin: 30px auto;
+    margin-top: -23px;
     padding: 20px;
     border: 2px solid #0b5b3d;
     border-radius: 20px 60px 20px 60px;
     box-shadow: 2px 2px 10px gray;
 }
 
-h1, .onderh1{
+h1, .onderh1 {
     color: white;
     text-shadow:
             2px 2px 0 #000,
