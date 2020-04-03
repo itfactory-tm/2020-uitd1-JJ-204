@@ -223,16 +223,17 @@ h4 {
 }
 
 #hamburger:checked ~ .menu-container .menu {
-    width: 250vh;
-    height: 250vh;
-    -webkit-transition: all .8s;
-    transition: all .8s;
+    width: 1000vh;
+    height: 1000vh;
+    -webkit-transition: all 3s;
+    transition: all 3s;
 }
 
 .menu-container .links {
     position: absolute;
     left: 50vw;
     top: 50vh;
+    width: 100%;
     z-index: 103;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -243,7 +244,7 @@ h4 {
     color: white;
     font-size: 2rem;
     text-decoration: none;
-    margin: 2rem;
+    margin: 1.5rem;
     transition: all .5s;
 }
 
@@ -277,7 +278,7 @@ h4 {
         width: 45vw;
     }
     .menu-container .links {
-        left: 15vw;
+        left: 33vw;
     }
     .container2 {
         width: 70%;
@@ -296,7 +297,7 @@ h4 {
         width: 33vw;
     }
     .menu-container .links {
-        left: 10vw;
+        left: 20vw;
     }
     .container2 {
         width: 70%;
@@ -371,4 +372,30 @@ h4 {
 
 .text-secondary {
     color: #0b5b3d !important
+}
+
+#container
+{
+    padding:10px;
+    border-radius: 20px 60px 20px 60px;
+    background-color: white;
+    box-shadow:2px 2px 10px  gray;
+}
+#container_php {
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #0b5b3d;
+    border-radius: 20px 60px 20px 60px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+h1, .onderh1{
+    color: white;
+    text-shadow:
+            2px 2px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
 }
