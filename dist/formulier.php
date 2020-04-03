@@ -48,9 +48,9 @@
         <div class="links">
             <ul>
                 <li>
-                    <a class="js-scroll-trigger" href="index.html#page-top">Kwallie <img class="js-scroll-trigger"
-                                                                                         src="../dist/img/favicon/favicon.ico"
-                                                                                         alt="Favicon"></a>
+                    <a class="js-scroll-trigger" href="#page-top">Kwallie <img class="js-scroll-trigger"
+                                                                               src="./img/logo.svg" width="48" height="48"
+                                                                               alt="logo"></a>
                 </li>
                 <li>
                     <a class="js-scroll-trigger" href="index.html#wie">Wie zijn wij?</a>
